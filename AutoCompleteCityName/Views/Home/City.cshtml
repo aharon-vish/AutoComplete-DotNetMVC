@@ -1,0 +1,9 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h2>Show Detail</h2>
+    <h4>ID: @Model[0]</h4>
+    <h4>CITY: @Model[1]</h4>
+    @Html.ActionLink("Back", "Index", "Home", null)
+</div>
